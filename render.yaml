@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: it-comes-at-night
-    runtime: node
-    plan: free
-    buildCommand: npm install
-    startCommand: node server.js
-    healthCheckPath: /
